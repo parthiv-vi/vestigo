@@ -15,7 +15,7 @@ SECRET_KEY = env('SECRET_KEY', default='django-insecure-test-key')
 DEBUG = env.bool('DEBUG', default=True)
 
 # Parse ALLOWED_HOSTS from .env (comma-separated)
-ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['*', '95b6b3829841.ngrok-free.app'])
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['*', 'localhost'])
 
 # Application definition
 INSTALLED_APPS = [
